@@ -1,0 +1,73 @@
+{
+  "route": "/search-engine-optimization",
+  "pageTitle": "Leading SEO Company in Gurugram | SEO Services | TopWebExperT",
+  "metaDescription": "Boost your online visibility with our professional SEO services. Drive organic traffic, improve rankings, and achieve online success!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "SEO Services",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 only (teal #00c1ae); no intro paragraph on this page. Page wrapper: bg-gray-100, max-w-5xl centered."
+    },
+    {
+      "type": "content",
+      "heading": null,
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "Leading SEO Company in Gurugram",
+          "description": "Welcome to TopWebExpert, the leading Digital Marketing Agency in Gurugram that specializes in offering all-inclusive SEO services. We are dedicated to assisting companies like yours realise amazing online success through efficient SEO methods. With years of experience and a staff of highly qualified individuals, we can do this.\nUse Our SEO Services to Increase Your Online Visibility\nIn the current digital environment, we at TopWebExpert are aware of how important it is for businesses to have a strong online presence. Our committed SEO services are created to raise the exposure of your website, boost organic traffic, and produce tangible outcomes. We take pride in our ability to stay on top of the curve and adjust to the always changing search engine algorithms as a respected SEO company in Gurugram.",
+          "image": "leading-seo-company.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        },
+        {
+          "title": "Personalised SEO Services to Improve Your Rankings",
+          "description": "We support a tailored approach to SEO services. Our team of professionals will collaborate directly with you to comprehend your specific business objectives, target market, and competitive environment. This insightful information will be used to create specialized SEO plans that meet your unique requirements. We will assist your website in moving up the search engine results pages by including pertinent keywords, optimising on-page features, and putting into practise efficient link-building techniques.",
+          "image": "personalized-seo-services.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Maintain Your Competitive Advantage with TopWebExpert",
+          "description": "We aim to be your strategic partner in attaining long-term success as a reputable SEO company. We are able to offer remarkable outcomes because to our dedication to excellence and ongoing awareness of business trends. We will establish your website as a leader in your field by utilising our search engine optimisation knowledge. This will increase conversion rates and drive qualified organic visitors to your website.",
+          "image": "seo-advantages.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        },
+        {
+          "title": "Why Choose Topwebexpert for SEO Services?",
+          "description": "Open Reporting and Continuous Improvement\n\nAt TopWebExpert, we value accountability and openness. We keep you updated on important metrics, keyword rankings, and the general effectiveness of your website with frequent reports on the development of your SEO campaign. To ensure ideal results, our team will regularly monitor and analyze the data, making the required modifications and optimizations.\n\nTopWebExpert enables you to see the difference.\n\nSelect TopWebExpert as your dependable SEO Agency in Gurugram to maximize your online exposure. Our hardworking team of SEO experts is prepared to use focused search engine optimization techniques to propel your company to new heights. To learn more about our services and how we can aid you in achieving your digital marketing objectives, get in touch with us right away.\n\nRemember, with TopWebExpert, you have the power to dominate search engine results and drive sustainable growth for your business. Let us be your partner in success.",
+          "image": "seo-services.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-[#00c1ae]/10"
+        }
+      ],
+      "notes": "Same shared template: alternating image+text rows (reverse=true flips image to left), h2 teal title, paragraph rendered with whitespace-pre-line (newlines in description are intentional line/paragraph breaks), teal pill 'Contact Us' button -> /contact-us. Row bg alternates white / teal-tint."
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your SEO Services Game on?",
+      "subheading": "Let's Talk About Your Goals",
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        { "title": "Contact Us", "description": "button -> /contact-us", "image": null }
+      ],
+      "notes": "Teal (#00c1ae) banner, rounded-2xl, centered, white pill button 'Contact Us' -> /contact-us."
+    }
+  ]
+}

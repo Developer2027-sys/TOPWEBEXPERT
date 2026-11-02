@@ -1,0 +1,71 @@
+{
+  "route": "/google-marketing",
+  "pageTitle": "Google Advertising Services | TopWebExpert",
+  "metaDescription": "Boost your business visibility and drive traffic with our expert Google Ads services. Reach your target audience effectively!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Google Advertising Services",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1, brand color #00c1ae, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "Harness the Power of Originality",
+      "subheading": null,
+      "paragraphs": [
+        "Originality is key when it comes to creating effective Google Advertising campaigns. Unique and compelling content not only sets you apart from your competitors but also establishes your brand as an authority in your industry. By crafting original ad copy and landing page content, you can captivate your audience's attention and inspire them to take action."
+      ],
+      "image": "google-ads-lead-generation.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Optimize Your Google Advertising for SEO",
+      "subheading": null,
+      "paragraphs": [
+        "To ensure your Google Advertising campaigns reach the right audience, it's crucial to optimize your content for search engines. By incorporating relevant keywords, meta tags, and optimizing your landing pages, you can increase your ad's visibility and improve its click-through rate (CTR). Remember to conduct keyword research to identify high-volume and low-competition keywords that align with your target audience's search intent."
+      ],
+      "image": "how-to-optimize-google-ads.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Deliver Engaging Ad Content",
+      "subheading": null,
+      "paragraphs": [
+        "In the digital age, attention spans are shrinking, making it vital to deliver engaging and concise ad content. Craft compelling headlines that grab attention and include a strong call-to-action (CTA) that entices users to click on your ads. Incorporate persuasive language, emphasize the unique value proposition of your product or service, and highlight any special offers or promotions to entice potential customers."
+      ],
+      "image": "google-ads-content.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "A/B Testing for Continuous Improvement",
+      "subheading": null,
+      "paragraphs": [
+        "To optimize your Google Advertising campaigns for better performance, it's crucial to conduct A/B testing. Experiment with different ad formats, copy variations, landing page designs, and CTA placements. By analyzing the results and making data-driven decisions, you can refine your campaigns and achieve better conversions over time."
+      ],
+      "image": "google-ads-improvement.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your Google Marketing Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Secrets — never commit real credentials
+app/includes/config.php
+
+# Dependencies / build (regenerated locally)
+node_modules/
+
+# Generated sitemap cache (pages are never cached to disk)
+app/cache/sitemaps/*
+!app/cache/sitemaps/.gitkeep
+
+# One-time setup scripts (run once, then delete on server)
+# (kept in repo for fresh installs, but noted in README)
+
+# OS / editor junk
+*.backup
+*.backup-*
+.DS_Store
+Thumbs.db
+*.log

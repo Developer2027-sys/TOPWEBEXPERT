@@ -1,0 +1,70 @@
+{
+  "route": "/privacy-policy",
+  "pageTitle": "Privacy Policy - Top Web Expert",
+  "metaDescription": "Read our Privacy Policy to understand how we collect, use, and protect your personal information at Top Web Expert.",
+  "metaKeywords": "Privacy Policy, Personal Information, Data Security, Top Web Expert",
+  "canonical": "window.location.href (self-canonical link added dynamically)",
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "Privacy Policy",
+      "paragraphs": [
+        "This Privacy Policy describes how we collect, use, and disclose your personal information when you visit or make a purchase from our website. By using our site, you consent to our privacy practices described in this policy."
+      ],
+      "notes": "h1 centered #00c1ae, intro paragraph directly below; white card (max-w-7xl shadow-xl rounded-xl p-8) on bg-gray-100."
+    },
+    {
+      "type": "legal-section",
+      "heading": "Information We Collect",
+      "paragraphs": [
+        "We collect information that you provide directly to us when you create an account, place an order, or communicate with us. The information may include your name, email address, phone number, payment information, and other details necessary to process your requests."
+      ]
+    },
+    {
+      "type": "legal-section",
+      "heading": "How We Use Your Information",
+      "items": [
+        "To process transactions and provide services you request.",
+        "To communicate with you, including promotional and marketing messages.",
+        "To improve our services, website, and user experience.",
+        "To comply with legal obligations and protect our rights."
+      ],
+      "notes": "Rendered as a bulleted list (ul list-disc list-inside)."
+    },
+    {
+      "type": "legal-section",
+      "heading": "Sharing Your Information",
+      "paragraphs": [
+        "We may share your information with third-party service providers to assist with our operations, such as payment processing, data analysis, marketing, and other services. We do not sell your personal information to third parties."
+      ]
+    },
+    {
+      "type": "legal-section",
+      "heading": "Data Security",
+      "paragraphs": [
+        "We take reasonable measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet is 100% secure."
+      ]
+    },
+    {
+      "type": "legal-section",
+      "heading": "Your Choices",
+      "paragraphs": [
+        "You have the right to update, correct, or delete your personal information. You can also opt-out of receiving promotional communications from us by following the unsubscribe instructions included in such messages."
+      ]
+    },
+    {
+      "type": "legal-section",
+      "heading": "Changes to This Policy",
+      "paragraphs": [
+        "We may update our Privacy Policy from time to time. Any changes will be posted on this page with the updated date. We encourage you to review this policy periodically."
+      ]
+    },
+    {
+      "type": "legal-section",
+      "heading": "Contact Us",
+      "paragraphs": [
+        "If you have any questions about this Privacy Policy, please contact us at info@topwebexpert.com."
+      ]
+    }
+  ]
+}

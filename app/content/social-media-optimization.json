@@ -1,0 +1,75 @@
+{
+  "route": "/social-media-optimization",
+  "pageTitle": "Social Media Optimization | TopWebExpert",
+  "metaDescription": "Enhance your online presence with our expert Social Media Optimization services. Boost engagement, visibility, and traffic!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Social Media Optimization",
+      "subheading": null,
+      "paragraphs": [
+        "In today's digital age, having a strong presence on social media is essential for businesses to connect with their target audience, increase brand visibility, and drive valuable engagement. However, managing multiple social media platforms can be time-consuming and overwhelming. That's where professional Social Media Optimization (SMO) services come into play. In this article, we'll explore the benefits of leveraging SMO services and how they can help you elevate your online presence to new heights."
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 (teal #00c1ae) + centered intro paragraph. Page wrapper: bg-gray-100, max-w-5xl centered."
+    },
+    {
+      "type": "content",
+      "heading": null,
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "Maximize Your Reach and Visibility",
+          "description": "With billions of users actively engaging on various social media platforms, it's crucial to maximize your reach and visibility. SMO services employ proven strategies to optimize your social media profiles, ensuring they are discoverable by your target audience. From keyword optimization and profile enhancements to compelling content creation, SMO services help you stand out in a crowded digital landscape.",
+          "image": "social-media-maximize-visibility.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Enhance Brand Engagement",
+          "description": "Engaging with your audience is key to building brand loyalty and fostering meaningful connections. SMO services provide valuable insights and tactics to increase audience engagement. They can help you curate and schedule relevant and engaging content, facilitate two-way conversations with your followers, and implement effective social media campaigns that drive interaction, likes, shares, and comments.",
+          "image": "social-media-brand-engagement.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        },
+        {
+          "title": "Drive Quality Traffic to Your Website",
+          "description": "SMO services are designed to drive quality traffic to your website, ultimately increasing conversions and revenue. By strategically integrating links to your website within your social media profiles and posts, SMO experts can help you generate targeted traffic that is more likely to convert into paying customers. Additionally, they can optimize your website's content to align with social media platforms, making it more shareable and amplifying its reach.",
+          "image": "smo-drive-traffic.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Stay Updated with Industry Trends",
+          "description": "Social media trends and algorithms are constantly evolving. SMO services provide valuable insights into the latest trends and changes, allowing you to stay ahead of the curve. By keeping abreast of platform updates, algorithm changes, and emerging social media features, SMO experts ensure that your social media strategy remains effective and adaptable.",
+          "image": "smo-industry-trend.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        }
+      ],
+      "notes": "Same shared template: alternating image+text rows. Unusual on this page: the FIRST row has reverse=true (image left, teal-tint bg) and alternation proceeds from there. h2 teal title, paragraph (whitespace-pre-line), teal pill 'Contact Us' button -> /contact-us."
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your SMO Service Game on?",
+      "subheading": "Let's Talk About Your Goals",
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        { "title": "Contact Us", "description": "button -> /contact-us", "image": null }
+      ],
+      "notes": "Teal (#00c1ae) banner, rounded-2xl, centered, white pill button 'Contact Us' -> /contact-us."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "route": "/contact-us",
+  "pageTitle": "Contact Us - TopWebExpert | Get In Touch For Digital Solutions",
+  "metaDescription": "Contact TopWebExpert for professional website development and digital marketing services. We're here to help you grow your business online.",
+  "metaKeywords": "Contact Us, TopWebExpert, Website Development, Digital Marketing, SEO, Gurugram",
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "Contact Us",
+      "notes": "h1, centered, brand color #00c1ae, inside white card (shadow-2xl rounded-3xl). Page uses a 2-column grid (lg): contact info left, form right."
+    },
+    {
+      "type": "contact-info",
+      "heading": null,
+      "items": [
+        {
+          "icon": "location (NA icon component)",
+          "text": "Chandhat, Palwal Kailash Nagar HSIIDC Dudhola Industrial Area Haryana"
+        },
+        {
+          "icon": "email (kA icon component)",
+          "text": "info@topwebexpert.com",
+          "href": "mailto:info@topwebexpert.com"
+        },
+        {
+          "icon": "phone (DA icon component)",
+          "text": "+91 9050126213",
+          "href": "tel:9050126213"
+        }
+      ],
+      "notes": "Each item is an icon + text row (flex items-center gap-4), icons in #00c1ae."
+    },
+    {
+      "type": "contact-form",
+      "heading": null,
+      "items": [
+        { "label": "Name", "name": "name", "id": "name", "inputType": "text", "required": true, "placeholder": null },
+        { "label": "Email", "name": "email", "id": "email", "inputType": "email", "required": true, "placeholder": null },
+        { "label": "Phone", "name": "phone", "id": "phone", "inputType": "tel", "required": true, "placeholder": null },
+        { "label": "Message", "name": "message", "id": "message", "inputType": "textarea", "rows": 4, "required": true, "placeholder": null }
+      ],
+      "submitButton": {
+        "text": "Send Message",
+        "loadingState": "spinner icon (animate-spin) while submitting; button disabled"
+      },
+      "notes": "Form in bg-gray-50 card (p-5 rounded-xl shadow-lg). No placeholders defined, labels only. On success: toast 'Message Sent Successfully!' (react-hot-toast, Toaster position top-center), form reset, then navigate('/thank-you'). On API failure: toast error with server message or 'Failed to send message. Please try again.'. On exception: toast 'An error occurred. Please try again.'"
+    },
+    {
+      "type": "map-embed",
+      "heading": null,
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.1616037024964!2d77.29064787534331!3d28.23277427588531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd0ce965ed31b%3A0x874138522992b490!2sPALWAL%20INDUSTRIES%20ASSOCIATION!5e0!3m2!1sen!2sin!4v1761645749692!5m2!1sen!2sin",
+      "notes": "iframe width 100%, height 450, border 0, allowFullScreen, loading lazy, title 'Google Map Location', referrerPolicy no-referrer-when-downgrade, wrapped in rounded-3xl overflow-hidden shadow-2xl. Location: PALWAL INDUSTRIES ASSOCIATION."
+    }
+  ],
+  "api": {
+    "endpoint": "http://localhost:8080/api/sendEmail.php",
+    "method": "POST",
+    "fields": ["name", "email", "phone", "message"],
+    "responseShape": "{ success: boolean, message?: string }",
+    "onSuccessRedirect": "/thank-you"
+  }
+}

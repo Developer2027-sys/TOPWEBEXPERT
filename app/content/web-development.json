@@ -1,0 +1,75 @@
+{
+  "route": "/web-development-company",
+  "pageTitle": "Website Designing - Professional Web Design Services | Top Web Expert",
+  "metaDescription": "Professional website designing services to create stunning, responsive, and SEO-optimized websites that boost your online presence. Contact us to get started!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Website Designing",
+      "subheading": null,
+      "paragraphs": [
+        "In today's digital age, having a professional and visually appealing website is essential for businesses to thrive online. A well-designed website not only captures the attention of your visitors but also showcases your brand's identity, builds trust, and drives conversions. If you're looking to create or revamp your website, our expert website designing services are here to help."
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 (teal #00c1ae) + centered intro paragraph. Page wrapper: bg-gray-100, max-w-5xl centered. NOTE: component sU renders 'Website Designing' content even though the route is /web-development-company."
+    },
+    {
+      "type": "content",
+      "heading": null,
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "The Art of Engaging Design",
+          "description": "Designing a website goes beyond aesthetics; it's about creating an engaging user experience that keeps visitors hooked from the moment they land on your site. Our professional designers understand the principles of effective design, including intuitive navigation, visually appealing layouts, and attention to detail. We take into account your brand's unique identity and target audience to craft a website that resonates with your visitors, encourages interaction, and ultimately leads to conversions.",
+          "image": "the-art-of-engaging-design.png",
+          "buttonText": "Get Started",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Responsive and Mobile-Friendly Designs",
+          "description": "With the increasing use of mobile devices, having a responsive website design is no longer optional - it's a necessity. Our website designing services ensure that your site adapts seamlessly to various screen sizes and resolutions, providing an optimal user experience across desktops, tablets, and smartphones. By catering to the growing mobile audience, you can maximize your reach and engagement, ultimately boosting your business's success.",
+          "image": "responsive-and-mobile-friendly-design.png",
+          "buttonText": "Find Out More",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-white"
+        },
+        {
+          "title": "SEO-Optimized Websites",
+          "description": "A stunning website design is incomplete if it doesn't rank well on search engines. Our team incorporates search engine optimization (SEO) best practices into the design process, ensuring that your website is easily discoverable by search engines and reaches your target audience effectively. From keyword optimization to meta tags and site structure, we optimize every element of your website to improve its visibility and organic traffic.",
+          "image": "seo-optimize-website.png",
+          "buttonText": "Get Started",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Customized Solutions for Your Business",
+          "description": "We understand that every business is unique, and cookie-cutter solutions won't cut it. Our website designing services offer customized solutions tailored to your specific needs and goals. Whether you require an e-commerce website, a portfolio site, or a corporate website, our experienced designers work closely with you to understand your requirements and deliver a website that aligns perfectly with your vision.",
+          "image": "customize-solutions-for-your-bussiness.png",
+          "buttonText": "Find Out More",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-white"
+        }
+      ],
+      "notes": "Alternating image+text rows (flex, lg:flex-row; reverse=true flips image to left). Each row: h2 title (teal), paragraph, teal pill CTA button linking to /contact-us; image w-1/2 rounded-2xl shadow. Rows alternate bgColor teal-tint / white, p-8 rounded-2xl. Images resolve to site root, e.g. /the-art-of-engaging-design.png."
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your Website Designing Game on?",
+      "subheading": "Let's Talk About Your Goals",
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        { "title": "Contact Us", "description": "button -> /contact-us", "image": null }
+      ],
+      "notes": "Full-width teal (#00c1ae) banner, rounded-2xl, centered text, white pill button 'Contact Us' -> /contact-us."
+    }
+  ]
+}

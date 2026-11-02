@@ -1,0 +1,30 @@
+{
+  "route": "/portfolio",
+  "pageTitle": "Our Portfolio - TopWebExpert | Successful Projects & Case Studies",
+  "metaDescription": "Explore our successful projects and case studies at TopWebExpert. We deliver high-quality web development and digital marketing solutions tailored to your business needs.",
+  "metaKeywords": "Portfolio, Projects, Case Studies, TopWebExpert, Web Development, Digital Marketing",
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "Our Portfolio",
+      "notes": "h1, centered, #00c1ae, mb-20, on white background, max-w-7xl container."
+    },
+    {
+      "type": "logo-grid",
+      "heading": null,
+      "items": [
+        {
+          "renderedFields": ["image (rendered as <img> from http://localhost:8080/api/portfolio_images/{image})", "title (used as alt text only)", "id (React key)"]
+        }
+      ],
+      "notes": "Pure image grid, no captions or links. Grid: 4 cols (max-w-lg) / 6 cols sm (max-w-xl) / 5 cols lg (full width); each img col-span-2 lg:col-span-1, max-h-20, object-contain — i.e. a client/project logo wall."
+    }
+  ],
+  "api": {
+    "endpoint": "http://localhost:8080/api/getPortfolio.php",
+    "method": "GET",
+    "fields": [],
+    "responseShape": "{ items: [{ id, title, image }] }",
+    "imagesBaseUrl": "http://localhost:8080/api/portfolio_images/{image}"
+  }
+}

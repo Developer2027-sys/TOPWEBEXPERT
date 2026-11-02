@@ -1,0 +1,112 @@
+{
+    "route": "/our-services",
+    "pageTitle": "Our Services - TopWebExpert | Best Web Development & Digital Marketing Services",
+    "metaDescription": "Explore our wide range of services at TopWebExpert, including Web Development, Digital Marketing, SEO, PPC, and more to boost your business.",
+    "metaKeywords": "Our Services, Web Development, Digital Marketing, SEO, PPC, Gurugram, TopWebExpert",
+    "sections": [
+        {
+            "type": "cards",
+            "heading": "Digital Marketing Services that we Provide",
+            "subheading": null,
+            "paragraphs": [],
+            "image": null,
+            "items": [
+                {
+                    "title": "Search Engine Optimization",
+                    "description": "Our Digital Marketing Company can skyrocket rankings of your website in Google with our innovative SEO techniques.",
+                    "link": "/search-engine-optimization",
+                    "icon": "search icon"
+                },
+                {
+                    "title": "Social Media Optimization",
+                    "description": "Engage your targeted audience and spread your brand awareness by opting for our effective social media services.",
+                    "link": "/social-media-optimization",
+                    "icon": "social media icon"
+                },
+                {
+                    "title": "Pay-Per-Click (PPC)",
+                    "description": "Significantly increase your revenue and grow your business with our expertly designed and result-oriented PPC campaigns.",
+                    "link": "/pay-per-click",
+                    "icon": "click/cursor icon"
+                },
+                {
+                    "title": "WhatsApp Marketing",
+                    "description": "Our WhatsApp Marketing Services help businesses reach their target audience through personalized messaging and automations.",
+                    "link": "/whatsapp-marketing",
+                    "icon": "whatsapp icon"
+                },
+                {
+                    "title": "SMS Marketing",
+                    "description": "Our SMS Marketing Services offer targeted and personalized messaging to boost customer engagement and drive business growth. Lets connect.",
+                    "link": "/sms-marketing",
+                    "icon": "sms/chat icon"
+                },
+                {
+                    "title": "Content Marketing",
+                    "description": "Get the content that defines your business, tells the world who you are, and what you stand for with our content Writing.",
+                    "link": "/content-marketing",
+                    "icon": "content/pen icon"
+                },
+                {
+                    "title": "Real Estate Digital Marketing",
+                    "description": "Specialised lead generation for builders, brokers and agents — property listing ads, project launch campaigns, realty SEO and social media that bring serious buyers to your projects.",
+                    "link": "/real-estate-marketing-noida"
+                }
+            ],
+            "notes": "Gray background (bg-gray-100); 2-column grid on md+ of white cards with large teal icon on the left and title+description on the right; each whole card is a link to the service page; hover turns background light teal (#e8f6f6)"
+        },
+        {
+            "type": "cards",
+            "heading": "Web Development Services that we Provide",
+            "subheading": null,
+            "paragraphs": [],
+            "image": null,
+            "items": [
+                {
+                    "title": "Website Designing",
+                    "description": "We offer WordPress website design services, creating custom, responsive & User Friendly websites to meet your unique business needs.",
+                    "link": "/web-development-company",
+                    "icon": "laptop/code icon"
+                },
+                {
+                    "title": "Graphic Designing",
+                    "description": "We offer professional graphic design services to help you create eye-catching visuals, from logos and branding to marketing materials.",
+                    "link": "/graphic-designing",
+                    "icon": "design/palette icon"
+                },
+                {
+                    "title": "Google Ads",
+                    "description": "In the ever-evolving digital landscape, having a strong online presence is crucial for businesses to thrive. Google Advertising services offer a powerful way to connect with your target audience and drive qualified traffic to your website. However, to make the most of your Google Advertising campaigns.",
+                    "link": "/google-marketing",
+                    "icon": "google icon"
+                },
+                {
+                    "title": "Facebook Ads",
+                    "description": "We provide Facebook advertising services to dozens of businesses, managing hundreds of campaigns. With having a great experience, we can lead you through the ever-changing world of Facebook advertising & assist you to avoid making costly mistakes.",
+                    "link": "/facebook-marketing",
+                    "icon": "facebook icon"
+                },
+                {
+                    "title": "E-Commerce Solution",
+                    "description": "We add more power to your unique brand identity to keep you ahead of your competitors with elegantly designed corporate websites. Our custom website solutions are designed to help you build a stronger and trustworthy brand that engages the audience through a friendly UI/UX.",
+                    "link": "/ecommerce-website-development-company",
+                    "icon": "shopping cart icon"
+                },
+                {
+                    "title": "Shopify Development & Agency Services",
+                    "description": "Shopify developers, agency services, store design, theme and app development, Plus builds, migrations from WooCommerce, Magento, WordPress and BigCommerce, SEO, speed and conversion optimisation for Shopify stores worldwide.",
+                    "link": "/shopify-services",
+                    "icon": "shopping cart icon"
+                },
+                {
+                    "title": "Website Maintenance",
+                    "description": "Our experienced development team works to keep your website up-to-date, malware-free, secure, and running smoothly with our website maintenance services. We bring the most feasible website maintenance solutions directly to you so your platform experiences no losses from downtimes and looks fresh at all times.",
+                    "link": "/website-maintenance-services",
+                    "icon": "tools/wrench icon"
+                }
+            ],
+            "notes": "Light teal background (#e8f6f6); 2-column grid on md+ of white cards, centered content (icon on top, then title, then description), teal bottom border, hover scale effect; each whole card links to the service page"
+        }
+    ],
+    "notes": "This entire component (LA) is also embedded inside the HOME page between the 'Web Development and Digital Marketing' intro section and the 'India's Leading' section."
+}

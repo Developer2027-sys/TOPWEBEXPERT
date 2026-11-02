@@ -1,0 +1,82 @@
+{
+  "route": "/whatsapp-marketing",
+  "pageTitle": "WhatsApp Marketing | TopWebExpert",
+  "metaDescription": "Boost your marketing with WhatsApp! Connect directly with customers, drive engagement, and increase sales through personalized messages and automation.",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "WhatsApp Marketing",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1, brand color #00c1ae, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "Harness the Power of Direct Communication",
+      "subheading": null,
+      "paragraphs": [
+        "WhatsApp offers a direct and instant communication channel with your customers, allowing you to reach them right in their pockets. With over 2 billion active users worldwide, WhatsApp provides a massive potential audience for your marketing campaigns. By utilizing WhatsApp marketing services, you can send personalized messages, promotions, and updates directly to your customers, fostering a sense of exclusivity and building strong customer relationships."
+      ],
+      "image": "whatsapp-direct-communication.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Create Engaging and Interactive Content",
+      "subheading": null,
+      "paragraphs": [
+        "WhatsApp provides various features that can be leveraged to create engaging and interactive content. You can use text messages, images, videos, voice notes, and even WhatsApp statuses to capture your audience's attention. By incorporating multimedia elements into your WhatsApp marketing campaigns, you can deliver compelling content that resonates with your target audience, encourages interaction, and drives conversions."
+      ],
+      "image": "interactive-design.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Build Customer Trust and Loyalty",
+      "subheading": null,
+      "paragraphs": [
+        "WhatsApp's end-to-end encryption and secure platform build trust among users, making it an ideal platform for businesses to engage with customers. By providing valuable and relevant content through WhatsApp, you can establish your brand as a trusted authority in your industry. Regular updates, exclusive offers, and personalized messages create a sense of loyalty and enhance the customer experience, leading to increased customer retention and advocacy."
+      ],
+      "image": "ecommerce-website-development.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us. Note: image filename reuses 'ecommerce-website-development.png' as in the bundle."
+    },
+    {
+      "type": "content",
+      "heading": "Automate and Personalize Your Marketing",
+      "subheading": null,
+      "paragraphs": [
+        "WhatsApp marketing services often include automation tools and features that allow you to streamline your marketing efforts. You can set up chatbots to handle frequently asked questions, automate message scheduling, and segment your audience for personalized communication. Automation not only saves time but also ensures that your messages are delivered at the right time, maximizing their impact and improving customer engagement."
+      ],
+      "image": "automate-marketing.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Measure and Optimize Your Results",
+      "subheading": null,
+      "paragraphs": [
+        "To maximize the effectiveness of your WhatsApp marketing campaigns, it's crucial to measure and analyze your results. Most WhatsApp marketing services provide analytics and reporting tools that allow you to track key metrics such as message open rates, click-through rates, and conversion rates. By analyzing this data, you can identify what works and what doesn't, enabling you to refine your strategies for better results."
+      ],
+      "image": "optimize-message-result.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your WhatsApp Marketing Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}

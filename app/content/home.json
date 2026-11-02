@@ -1,0 +1,157 @@
+{
+  "route": "/",
+  "pageTitle": "TopWebExpert - Best Website Development & Digital Marketing Agency in Gurugram",
+  "metaDescription": "TopWebExpert offers the best website development and digital marketing services in Gurugram. Enhance your online presence with our expert solutions.",
+  "metaKeywords": "Website Development, Digital Marketing, SEO, Gurugram, TopWebExpert",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Digital Marketing",
+      "headingNote": "The word 'Digital' is in teal (#00c1ae) followed by a line break, then 'Marketing'",
+      "subheading": null,
+      "paragraphs": [
+        "Topwebexpert is the best website development and digital marketing Agency in Gurugram, well known for best quality website designs and development"
+      ],
+      "image": "banner.png",
+      "buttons": [{"label": "Contact Us", "link": "/contact-us"}],
+      "notes": "Full-height background image section (background-image: url('banner.png'), resolves to /banner.png at site root), text left-aligned in white, teal rounded pill button"
+    },
+    {
+      "type": "content",
+      "heading": "Web Development and Digital Marketing",
+      "subheading": "Multiple Awards Winning Digital Marketing Agency in Gurugram, Delhi NCR, India",
+      "paragraphs": [
+        "Topweb Expert is a 360° Digital marketing agency in Gurugram with a presence in web marketing, SEO services, Digital marketing services, PPC services, and Internet Marketing. Our team’s expertise and global knowledge provide businesses the opportunity to realize their full online potential with our carefully crafted strategies that are data-driven and target-oriented. We guarantee customer satisfaction with every campaign we undertake and always aim for steady growth."
+      ],
+      "image": null,
+      "items": [
+        {
+          "title": "Creative Digital Marketing Company",
+          "description": "Topweb Expert will help you grow your business by offering result-oriented & ROI-driven Consulting, Design, and digital marketing services in Gurugram. Our strategies have been proven to work. As we are the best Digital Marketing Agency in Gurugram, we don’t wish to sound boastful, but if you work with us, you need to learn to expect the extra."
+        }
+      ],
+      "notes": "Centered text on gray background; the item is a teal (#00c1ae) rounded card with white text below the intro paragraph"
+    },
+    {
+      "type": "embedded-component",
+      "heading": null,
+      "notes": "The full 'Our Services' component (LA) is rendered inline here: both service grids ('Digital Marketing Services that we Provide' and 'Web Development Services that we Provide'). See our-services.json for the full content of these two sections. Caveat: because the component is reused verbatim, it also sets document.title as a side effect."
+    },
+    {
+      "type": "content",
+      "heading": "India's Leading",
+      "subheading": "Custom Website Designing & Development Company for Start-ups & Businesses",
+      "paragraphs": [
+        "TopwebExpert, your trusted partner for exceptional website design and development solutions. We are dedicated to delivering unparalleled results that not only captivate your audience but also drive significant business growth. With our team of skilled professionals and cutting-edge technologies, we guarantee a seamless online presence that sets you apart from the competition.",
+        "Are you ready to elevate your online presence and unlock your business’s true potential? Contact TopWebExpert today and let us take your website to new heights."
+      ],
+      "image": null,
+      "buttons": [{"label": "Contact Us", "link": "/contact-us"}],
+      "notes": "Centered text on light gray (bg-gray-50); subheading is teal; teal pill CTA button"
+    },
+    {
+      "type": "content+stats",
+      "heading": "About Us",
+      "subheading": null,
+      "paragraphs": [
+        "TopWebExpert is a premier digital solutions provider, renowned for our exceptional services and innovative solutions. Our team consists of highly skilled professionals, including web developers, designers, digital marketers, and technology enthusiasts. We bring together diverse talents and perspectives to deliver comprehensive and customized digital strategies tailored to your unique goals.",
+        "Partner with TopWebExpert today and unlock your digital potential. Experience the power of our expertise, innovation, and commitment to empowering your digital success. Contact us now to embark on your transformative digital journey."
+      ],
+      "image": null,
+      "items": [
+        {"title": "7+", "description": "Years Experience"},
+        {"title": "150+", "description": "Satisfied Clients"},
+        {"title": "75K", "description": "Lead Generate"},
+        {"title": "500+", "description": "Projects Completed"}
+      ],
+      "notes": "Two-column layout: text left, 2x2 grid of teal stat cards right (white text, rounded)"
+    },
+    {
+      "type": "cards",
+      "heading": "Why People Love Us",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "Experienced Team",
+          "description": "We have a team of experts well-versed in their work. Our approach is effective and precise, delegating tasks based on specific expertise, resulting in minimal errors.",
+          "icon": "users icon (react-icons FaUsers-style)"
+        },
+        {
+          "title": "We are Friendly",
+          "description": "We focus on building long-term relationships with our clients. We are always available for help and continue to support our clients even after delivering services.",
+          "icon": "smile icon"
+        },
+        {
+          "title": "We are On Time",
+          "description": "We value your time and always keep our promises. We work hard to meet deadlines and deliver high-quality results within the agreed timeframe.",
+          "icon": "clock icon"
+        }
+      ],
+      "notes": "Grid of 3 white cards on gray background, centered teal icons, hover scale effect"
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "What services does TopWebExpert offer?",
+          "description": "TopWebExpert is a full-service digital marketing agency that offers a wide range of digital marketing services to help businesses improve their online visibility and drive results. Our services include: Search engine optimization (SEO), Pay-per-click (PPC) advertising, Social media marketing, Content marketing, Email marketing, Web design and development."
+        },
+        {
+          "title": "What is SEO?",
+          "description": "SEO stands for search engine optimization, which is the process of optimizing a website to rank higher in search engine results pages (SERPs). By improving the quality and relevance of a website's content and structure, SEO can help increase organic traffic to a website and improve its visibility to search engine users."
+        },
+        {
+          "title": "Why is SEO important for businesses?",
+          "description": "SEO is important for businesses because it can help them reach a wider audience and drive more traffic to their website. By appearing higher in search engine results, businesses can increase their visibility and credibility, which can lead to more leads and sales."
+        },
+        {
+          "title": "What is PPC advertising?",
+          "description": "PPC advertising is a form of online advertising where advertisers pay a fee each time their ad is clicked. PPC ads appear at the top and bottom of search engine results pages and can also appear on social media platforms and other websites."
+        },
+        {
+          "title": "How can social media marketing help my business?",
+          "description": "Social media marketing can help businesses build brand awareness, engage with their audience, and drive traffic to their website. By creating and sharing valuable content on social media platforms, businesses can establish themselves as thought leaders in their industry and connect with their audience on a more personal level."
+        },
+        {
+          "title": "What is content marketing?",
+          "description": "Content marketing is the practice of creating and sharing valuable content to attract and retain a target audience. Content can take many forms, including blog posts, infographics, videos, and social media posts."
+        },
+        {
+          "title": "What is email marketing?",
+          "description": "Email marketing is the practice of sending promotional messages or newsletters to a list of subscribers. Email marketing can help businesses stay in touch with their audience, promote new products or services, and drive traffic to their website."
+        },
+        {
+          "title": "What is web design and development?",
+          "description": "Web design and development is the process of creating and maintaining a website. This can include everything from designing the website's layout and user interface to coding and programming the website's functionality."
+        }
+      ],
+      "notes": "Accordion cards in a 2-column grid; question text is teal; toggle shows '+' when closed and '-' when open, one item open at a time"
+    },
+    {
+      "type": "testimonials-slider",
+      "heading": "What Our Clients Say",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "dataSource": "/api/testimonials_slider.php (dev URL http://localhost:8080/api/testimonials_slider.php); returns { testimonials: [{ id, message, name, designation }] }",
+      "notes": "Horizontally scrolling cards (w-80 white cards, gray user-circle icon, message, teal name, gray designation) with left/right arrow buttons; content is dynamic from the API"
+    },
+    {
+      "type": "logo-carousel",
+      "heading": "COMPANIES WE HAVE CREATED RESULTS FOR",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "dataSource": "/api/fetch_carousel_images.php (dev URL http://localhost:8080/api/fetch_carousel_images.php); returns { images: [filename, ...] }; each image loaded from /api/portfolio_images/{filename}",
+      "notes": "Horizontally scrolling strip of client logos (max-h-20, object-contain) with left/right arrow buttons; alt text 'Portfolio Item N'"
+    }
+  ]
+}

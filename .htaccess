@@ -1,0 +1,102 @@
+# TopWebExpert — Apache config (front controller, caching, compression, security)
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # One host only: www.topwebexpert.com served the whole site as a duplicate of
+  # topwebexpert.com (every page reachable at two addresses). Redirect it for good.
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+  # Never serve application internals directly
+  RewriteRule ^app/ - [F]
+  RewriteRule ^libs/phpmailer/ - [F]
+
+  # Build-time and repository files. Nothing on the site links to these; leaving them
+  # readable only gave crawlers junk URLs to index.
+  RewriteRule ^(src|node_modules)/ - [F]
+  RewriteRule ^(package(-lock)?\.json|README-HOSTING\.md|\.gitignore|\.env)$ - [F]
+
+  # Standalone landing-page folders — allowed to open directly on the domain.
+  # To allow a new folder, add its name inside the (...) separated by |
+  # Example: (folder-one|folder-two|folder-three)
+  RewriteRule ^(nakul-google-ads-expert-for-real-estate)(/.*)?$ - [L]
+  RewriteRule ^(real-estate-lead-generation-agency)(/.*)?$ - [L]
+  RewriteRule ^(founder-ceo-topwebexpert-nakul-prajapati)(/.*)?$ - [L]
+
+  # WebP for browsers that accept it.
+  # app/scripts/optimize-images.php writes a "<name>.png.webp" twin next to every
+  # PNG/JPEG. When the browser advertises WebP support we serve that twin while the
+  # URL in the HTML stays the original .png/.jpg — so no link, sitemap or image-search
+  # result changes, the bytes just shrink by ~80%. "Vary: Accept" (set below) keeps
+  # proxies and CDNs from handing the WebP body to a browser that cannot read it.
+  RewriteCond %{HTTP_ACCEPT} image/webp
+  RewriteCond %{REQUEST_FILENAME}\.webp -f
+  RewriteRule ^(.+\.(?:png|jpe?g))$ $1.webp [NC,T=image/webp,L]
+
+  # Real static assets are served directly by Apache
+  RewriteCond %{REQUEST_URI} \.(css|js|png|jpe?g|webp|gif|svg|ico|woff2?|txt|map)$ [NC]
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # Everything else (all pretty URLs, admin, sitemap) goes through the front controller
+  RewriteRule ^ index.php [L]
+</IfModule>
+
+# Long-lived caching for static assets (URLs are version-busted with ?v=)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  # Apache 2.4 labels .js files "text/javascript", so both spellings are needed —
+  # with only application/javascript the site's JS was never given an Expires header.
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+</IfModule>
+
+# Compression. Brotli first where available (~15% smaller than gzip on HTML/CSS/JS),
+# with mod_deflate as the fallback for hosts that lack it.
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/javascript application/javascript application/json application/xml application/rss+xml image/svg+xml
+</IfModule>
+<IfModule mod_deflate.c>
+  <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml application/rss+xml image/svg+xml
+  </IfModule>
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Security headers
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Versioned assets (?v=<filemtime>) can be cached forever and never revalidated.
+  <FilesMatch "\.(css|js|woff2?|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Images are content-negotiated on Accept (see the WebP rule above), so any shared
+  # cache must key on it. Not "immutable": image files keep their name when replaced
+  # through the admin panel.
+  <FilesMatch "\.(png|jpe?g|webp|gif|avif)$">
+    Header set Cache-Control "public, max-age=31536000"
+    Header append Vary Accept
+  </FilesMatch>
+</IfModule>
+
+# Serve pre-generated .webp twins with the right type even when the URL says .png
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/avif .avif
+</IfModule>

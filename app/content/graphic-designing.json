@@ -1,0 +1,82 @@
+{
+  "route": "/graphic-designing",
+  "pageTitle": "Graphic Designing | TopWebExpert",
+  "metaDescription": "Unleash creativity with our expert Graphic Designing services. From logos to marketing materials, we craft visually appealing designs!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Graphic Designing",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1, brand color #00c1ae, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "Building a Memorable Brand Identity",
+      "subheading": null,
+      "paragraphs": [
+        "A strong brand identity is essential for businesses looking to make a lasting impact. Our graphic designing services encompass logo design, color palette selection, typography, and visual elements that align with your brand's personality and values. Our team of experienced designers ensures that each element is crafted meticulously to create a distinct and memorable brand identity that resonates with your target audience."
+      ],
+      "image": "graphic-make-brand-identity.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Compelling Visual Communication",
+      "subheading": null,
+      "paragraphs": [
+        "Visual communication is a powerful tool to convey your brand message effectively. Our graphic design services go beyond aesthetics by strategically combining colors, typography, and imagery to create visually compelling materials. From eye-catching social media graphics to captivating brochures and infographics, we help you communicate your message in a visually appealing and engaging manner."
+      ],
+      "image": "graphic-design-visual-communication.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Consistency Across Marketing Collateral",
+      "subheading": null,
+      "paragraphs": [
+        "Maintaining consistency across all marketing collateral is crucial for establishing brand recognition and credibility. Our graphic designers are experts at creating cohesive visuals that align with your brand guidelines. From website banners to business cards, we ensure that every piece of collateral represents your brand consistently, leaving a professional and polished impression on your audience."
+      ],
+      "image": "graphic-design-marketing-collateral.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Staying Ahead of the Competition",
+      "subheading": null,
+      "paragraphs": [
+        "In today's competitive marketplace, standing out from the crowd is vital. Our graphic design services are focused on helping you differentiate your brand by creating unique and innovative designs. We stay up-to-date with the latest design trends and techniques, ensuring that your visuals are fresh, relevant, and ahead of the competition."
+      ],
+      "image": "graphic-design-stay-ahead-competition.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Customized Designs Tailored to Your Audience",
+      "subheading": null,
+      "paragraphs": [
+        "Understanding your target audience is at the core of our graphic design process. Our team takes the time to research and analyze your audience demographics, preferences, and behaviors to create designs that resonate with them. By tailoring our designs specifically to your audience, we help you establish a stronger connection and increase engagement, ultimately driving more conversions and business growth."
+      ],
+      "image": "graphic-design-tailored-audience.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your Graphic Designing Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}

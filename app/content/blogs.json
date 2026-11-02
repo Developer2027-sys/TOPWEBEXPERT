@@ -1,0 +1,37 @@
+{
+  "route": "/blog",
+  "pageTitle": "Blog - TopWebExpert | Latest News & Tips on Web Development & Digital Marketing",
+  "metaDescription": "Explore our blog to get the latest news, tips, and insights on web development, digital marketing, SEO, and more from TopWebExpert.",
+  "metaKeywords": "Blog, Web Development, Digital Marketing, SEO, TopWebExpert, Articles, Tips, News",
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "Blog Posts",
+      "notes": "h1, centered, #00c1ae, on bg-gray-100 page, max-w-5xl container."
+    },
+    {
+      "type": "post-grid",
+      "heading": null,
+      "items": [
+        {
+          "renderedFields": ["image", "title", "description", "date", "slug (used for navigation)", "id (React key)"],
+          "cardLayout": "White rounded-2xl card, hover:scale-105, whole card clickable -> navigate(`/blog/${slug}`). Image on top (h-52 object-cover) from http://localhost:8080/api/blog_images/{image}. Body: h3 title, description paragraph (text-gray-500 text-sm), date row with calendar icon, 'Read More' pill button (#00c1ae, inverts on hover)."
+        }
+      ],
+      "notes": "Grid: 1 col mobile, 2 cols sm, 3 cols lg, gap-6. Button text: 'Read More'."
+    },
+    {
+      "type": "pagination",
+      "heading": null,
+      "notes": "Numbered round page buttons (1..totalPages) centered below grid. Active page: bg #00c1ae white text; inactive: white bg, #00c1ae text + border. Clicking sets page state and refetches. Page size (limit) = 9."
+    }
+  ],
+  "api": {
+    "endpoint": "http://localhost:8080/api/getPosts.php",
+    "method": "GET",
+    "fields": ["page (query param)", "limit (query param, value 9)"],
+    "requestExample": "GET /api/getPosts.php?page={page}&limit=9",
+    "responseShape": "{ posts: [{ id, title, description, date, image, slug }], totalPages: number }",
+    "imagesBaseUrl": "http://localhost:8080/api/blog_images/{image}"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "route": "/sms-marketing",
+  "pageTitle": "SMS Marketing | TopWebExpert",
+  "metaDescription": "Engage, inform, and convert customers with powerful SMS marketing services. High open rates, personalized messaging, and cost-effective solutions!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "SMS Marketing",
+      "subheading": null,
+      "paragraphs": [
+        "In today's fast-paced digital world, SMS marketing offers a powerful and efficient way to reach your audience instantly, delivering messages directly to their mobile devices."
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 in brand color #00c1ae plus centered intro paragraph, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "Instant and Direct Communication",
+      "subheading": null,
+      "paragraphs": [
+        "SMS marketing enables you to communicate with your customers in real-time, instantly delivering important updates, promotions, and announcements. Unlike email or social media, SMS messages are typically read within minutes of being received, ensuring your messages get noticed promptly."
+      ],
+      "image": "instant-and-direct-communication.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "High Open and Conversion Rates",
+      "subheading": null,
+      "paragraphs": [
+        "SMS boasts an impressive open rate of over 98%, far surpassing other marketing channels. With such high visibility, your messages are more likely to be seen and acted upon, resulting in higher conversion rates and boosted revenue."
+      ],
+      "image": "high-conversion-rate.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Personalized and Targeted Messaging",
+      "subheading": null,
+      "paragraphs": [
+        "SMS marketing allows you to personalize your messages and tailor them to specific customer segments. By gathering valuable customer data, such as demographics and purchasing behavior, you can create highly targeted campaigns that resonate with individual recipients. This level of personalization enhances customer engagement and strengthens their connection to your brand."
+      ],
+      "image": "target-message.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Opt-in and Opt-out Compliance",
+      "subheading": null,
+      "paragraphs": [
+        "SMS marketing ensures compliance with opt-in and opt-out regulations, providing a transparent and ethical communication channel. By obtaining explicit consent from your customers, you build trust and maintain a positive brand image. Additionally, honoring opt-out requests promptly shows respect for your customers' preferences."
+      ],
+      "image": "opt-in-and-opt-out-compilance-message.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us. Note: image filename contains typo 'compilance' as in the bundle."
+    },
+    {
+      "type": "content",
+      "heading": "Cost-Effective and Efficient",
+      "subheading": null,
+      "paragraphs": [
+        "Compared to traditional marketing channels, SMS marketing is a cost-effective solution that offers a high return on investment. With minimal production and distribution costs, you can reach a large audience at a fraction of the price. Moreover, SMS campaigns can be easily automated, saving you time and effort while maximizing results."
+      ],
+      "image": "cost-effective-messages.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your SMS Marketing Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}

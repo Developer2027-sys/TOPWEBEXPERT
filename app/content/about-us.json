@@ -1,0 +1,33 @@
+{
+  "route": "/about-us",
+  "pageTitle": "About Us - TopWebExpert",
+  "metaDescription": "Learn about TopWebExpert, the best digital marketing and web development agency in Gurugram. Trusted by over 150 clients.",
+  "metaKeywords": "About TopWebExpert, Digital Marketing Gurugram, Web Development Agency, TopWebExpert Gurugram",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "About Us",
+      "subheading": null,
+      "paragraphs": [
+        "TopWebExpert is a premier digital solutions provider, renowned for our exceptional services and innovative solutions. Our team consists of highly skilled professionals, including web developers, designers, digital marketers, and technology enthusiasts. We bring together diverse talents and perspectives to deliver comprehensive and customized digital strategies tailored to your unique goals. Partner with TopWebExpert today and unlock your digital potential. Experience the power of our expertise, innovation, and commitment to empowering your digital success. Contact us now to embark on your transformative digital journey."
+      ],
+      "image": null,
+      "buttons": [{"label": "Contact Us", "link": "/contact-us"}],
+      "notes": "Centered text section; 'About Us' h1 in teal (#00c1ae); single combined paragraph (max-w-3xl centered); teal pill CTA button"
+    },
+    {
+      "type": "stats",
+      "heading": "Our Achievements",
+      "subheading": "We have consistently delivered quality services over the years.",
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {"title": "7+", "description": "Year Experience"},
+        {"title": "150+", "description": "Satisfied Clients"},
+        {"title": "75K", "description": "Lead Generate"},
+        {"title": "50+", "description": "Project Completed"}
+      ],
+      "notes": "Gray background section; grid of 4 teal (#00c1ae) rounded stat cards (1 col mobile, 2 cols sm, 4 cols lg) with large value on top and label below. Note: the About page says 'Project Completed 50+' while the HOME page stats grid says 'Projects Completed 500+' — a discrepancy in the original site copy."
+    }
+  ]
+}

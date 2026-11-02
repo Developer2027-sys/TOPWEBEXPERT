@@ -1,0 +1,64 @@
+{
+  "route": "/website-maintenance-services",
+  "pageTitle": "Website Maintenance Services | Top Web Expert",
+  "metaDescription": "Professional website maintenance services to keep your website secure, updated, and optimized for peak performance.",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Website Maintenance",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 only (teal #00c1ae); this page has no intro paragraph. Page wrapper: bg-gray-100, max-w-5xl centered."
+    },
+    {
+      "type": "content",
+      "heading": null,
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        {
+          "title": "Why Website Maintenance Matters",
+          "description": "A website is the virtual storefront of your business, and just like a physical store, it requires regular attention and upkeep. Regular maintenance ensures that your website functions smoothly, loads quickly, and provides an optimal user experience across different devices. It also helps you stay up-to-date with the latest web standards, security protocols, and search engine algorithms, ensuring your website remains relevant and competitive in the ever-evolving digital landscape.",
+          "image": "why-website-maintenance-matter.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        },
+        {
+          "title": "The Benefits of Professional Website Maintenance Services",
+          "description": "Enhanced Performance: Optimizing code, compressing images, and implementing caching techniques for faster loading times.\n\nReliable Security: Regular backups, malware scans, and vulnerability patches to protect your website from breaches.\n\nSEO-Friendly Practices: Improving page load speed, optimizing meta tags, and creating SEO-friendly URLs for better visibility.",
+          "image": "professional-website-maintenance-service.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "left",
+          "bgColor": "bg-[#00c1ae]/10"
+        },
+        {
+          "title": "Partnering with a Reliable Website Maintenance Service Provider",
+          "description": "Experience and Expertise: Proven track record and deep understanding of CMS and website maintenance.\n\nCustomized Solutions: Tailored solutions to meet your specific needs, from content updates to security audits.\n\nProactive Monitoring and Support: 24/7 monitoring to promptly identify and resolve issues, ensuring smooth operation.",
+          "image": "Lead-Generation.png",
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact-us",
+          "imagePosition": "right",
+          "bgColor": "bg-white"
+        }
+      ],
+      "notes": "Same shared template as other service pages: alternating image+text rows (reverse=true puts image left), h2 teal title, paragraph rendered with whitespace-pre-line (\\n\\n = separate lines, used here for bold-style bullet blocks), teal pill 'Contact Us' button -> /contact-us. Row bg alternates white / teal-tint. Note third row reuses image Lead-Generation.png (capital L)."
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your Website Maintenance Game on?",
+      "subheading": "Let's Talk About Your Goals",
+      "paragraphs": [],
+      "image": null,
+      "items": [
+        { "title": "Contact Us", "description": "button -> /contact-us", "image": null }
+      ],
+      "notes": "Teal (#00c1ae) banner, rounded-2xl, centered, white pill button 'Contact Us' -> /contact-us."
+    }
+  ]
+}

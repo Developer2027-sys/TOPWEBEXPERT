@@ -1,0 +1,21 @@
+{
+  "route": "/thank-you",
+  "pageTitle": "(no document.title set by this component)",
+  "sections": [
+    {
+      "type": "confirmation-card",
+      "heading": "Thank You!",
+      "paragraphs": [
+        "Your message has been sent successfully. We will get back to you as soon as possible!"
+      ],
+      "items": [
+        {
+          "type": "link-button",
+          "text": "Back to Home",
+          "to": "/"
+        }
+      ],
+      "notes": "Full-viewport centered card (min-h-screen, bg-gray-100): white rounded-2xl shadow-xl card max-w-md, large check/success icon (GV component) in #00c1ae text-6xl above the h1; h1 'Thank You!' in #00c1ae; paragraph; then a rounded-full pill Link button (#00c1ae, hover #00b4a3) to home."
+    }
+  ]
+}

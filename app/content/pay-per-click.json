@@ -1,0 +1,73 @@
+{
+  "route": "/pay-per-click",
+  "pageTitle": "Pay Per Click | TopWebExpert",
+  "metaDescription": "Boost your online visibility and drive traffic with our professional Pay Per Click services. Targeted advertising for maximum ROI!",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Pay Per Click",
+      "subheading": null,
+      "paragraphs": [
+        "Achieve instant visibility, targeted traffic, and measurable results with our PPC advertising services. Drive qualified leads and boost your marketing ROI with precision."
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1 in brand color #00c1ae plus centered intro paragraph, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "Understanding the Power of PPC Ads",
+      "subheading": null,
+      "paragraphs": [
+        "PPC ads offer an incredible opportunity to place your brand in front of potential customers at the right time and in the right place. Unlike traditional advertising methods, PPC ads allow you to pay only when someone clicks on your ad, ensuring that your budget is spent effectively. With precise targeting options and real-time performance tracking, PPC ads enable you to optimize your campaigns for maximum impact and profitability."
+      ],
+      "image": "ppc-management-service.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Creating Landing Pages that Convert",
+      "subheading": null,
+      "paragraphs": [
+        "Creating captivating ad copy is crucial to grab the attention of your target audience and entice them to click on your ad. Incorporate keywords that align with your audience's search intent and highlight the unique selling points of your products or services. Use strong calls-to-action (CTAs) to encourage users to take the desired action, such as making a purchase, subscribing to a newsletter, or contacting your business."
+      ],
+      "image": "ppc-ads.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Conducting Thorough Keyword Research",
+      "subheading": null,
+      "paragraphs": [
+        "Effective keyword research is the foundation of successful PPC campaigns. Identify high-intent keywords that are relevant to your business and have a significant search volume. Leverage keyword research tools to uncover long-tail keywords, which often have less competition and can deliver more targeted traffic. Continuously monitor and refine your keyword list to ensure optimal campaign performance."
+      ],
+      "image": "keyword-research-ppc.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Monitoring, Analyzing, and Optimizing",
+      "subheading": null,
+      "paragraphs": [
+        "PPC campaigns require continuous monitoring and optimization to ensure optimal performance. Regularly review key metrics such as click-through rate (CTR), conversion rate, and cost per conversion. Identify underperforming ads and keywords and make data-driven adjustments to improve campaign effectiveness. A/B testing different ad variations and landing page designs can also provide valuable insights to further optimize your campaigns."
+      ],
+      "image": "ppc-analyzepng.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us. Note: image filename is literally 'ppc-analyzepng.png' in the bundle."
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your PPC Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}

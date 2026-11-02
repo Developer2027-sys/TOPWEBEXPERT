@@ -1,0 +1,40 @@
+# TopWebExpert
+
+> TopWebExpert is a website development and digital marketing agency based in Gurugram (Gurgaon), Haryana, India, serving businesses worldwide. Services include SEO, PPC, social media marketing, WhatsApp/SMS marketing, content marketing, website design & development, e-commerce development, graphic design and website maintenance. 7+ years of experience, 150+ clients, 500+ projects delivered.
+
+Key facts:
+- Contact: info@topwebexpert.com | +91 9050126213
+- Location: Chandhat, Palwal, Haryana, India (serving clients globally)
+- Free consultation available for all services
+
+## Main Pages
+
+- [Home](/): Agency overview, services summary, client testimonials and FAQs
+- [Our Services](/our-services): Complete list of 28+ digital marketing and web development services
+- [About Us](/about-us): Company background, team and achievements
+- [Portfolio](/our-portfolio): Brands and companies we have delivered results for
+- [Contact](/contact-us): Enquiry form, address, phone and email
+
+## Core Services
+
+- [Search Engine Optimization](/search-engine-optimization): SEO services to rank higher on Google
+- [Pay-Per-Click](/pay-per-click): Managed PPC advertising campaigns
+- [Social Media Optimization](/social-media-optimization): Brand growth on social platforms
+- [Website Development](/web-development-company): Custom, responsive website design and development
+- [E-Commerce Development](/ecommerce-website-development-company): Online store development
+- [Google Ads](/google-marketing): Certified Google Ads campaign management
+- [Facebook Ads](/facebook-marketing): Data-driven Facebook advertising
+- [WhatsApp Marketing](/whatsapp-marketing): Personalized WhatsApp campaigns
+- [SMS Marketing](/sms-marketing): Targeted bulk SMS campaigns
+- [Content Marketing](/content-marketing): SEO-friendly content that converts
+- [Graphic Designing](/graphic-designing): Logos, branding and creatives
+- [Website Maintenance](/website-maintenance-services): Updates, security and speed care
+
+## Content
+
+- [Blog](/blogs): Regularly updated articles on SEO, digital marketing, web development and business growth
+- City-specific service pages available for 1,400+ cities across 170 countries at /{service}-{city} (e.g. /search-engine-optimization-london)
+
+## Sitemap
+
+- [Sitemap index](/sitemap.xml)

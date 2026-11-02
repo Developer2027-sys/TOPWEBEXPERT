@@ -1,0 +1,106 @@
+{
+  "route": null,
+  "pageTitle": "Shared layout: Navbar + Footer + shared dynamic sections",
+  "navbar": {
+    "topBar": {
+      "notes": "Teal (#00c1ae) strip above the main nav, right-aligned white text, hidden on mobile (hidden sm:block)",
+      "addressLabel": "Address:",
+      "address": "Chandhat, Palwal Kailash Nagar HSIIDC Dudhola Industrial Area Haryana",
+      "contactLabel": "Contact No:",
+      "phone": "+91 9050126213",
+      "phoneHref": "tel:9050126213"
+    },
+    "logo": {
+      "image": "logo.png",
+      "notes": "src is '../logo.png' in the bundle (resolves to /logo.png at site root), alt 'logo', width class w-36, links to /"
+    },
+    "menu": [
+      {"name": "Home", "path": "/"},
+      {"name": "About Us", "path": "/about-us"},
+      {"name": "Our Services", "path": "/our-services"},
+      {"name": "Portfolio", "path": "/our-portfolio"},
+      {"name": "Blogs", "path": "/blogs"},
+      {"name": "Contact Us", "path": "/contact-us"}
+    ],
+    "servicesDropdown": null,
+    "ctaButton": {"label": "Get in Touch", "link": "/contact-us", "notes": "Teal pill button, hidden on mobile (hidden lg:block)"},
+    "notes": "Flat menu — NO services dropdown exists in the navbar component (lM). Individual service pages are reached via the service cards on /our-services (see our-services.json links). Mobile: hamburger toggles a fixed left slide-in white panel with the same menu items and a close (X) button."
+  },
+  "footer": {
+    "background": "bg-gray-900 (dark)",
+    "columns": [
+      {
+        "heading": "Topwebexpert",
+        "notes": "Brand name links to /; followed by description paragraph",
+        "paragraphs": [
+          "TopWebExpert is the best digital marketing agency in Gurugram, we’re committed to helping you build your business online. Whether you’re just starting out or looking to take your digital presence to the next level, we have the expertise and experience to help you succeed."
+        ]
+      },
+      {
+        "heading": "Useful Links",
+        "links": [
+          {"label": "Terms and Conditions", "path": "/terms-and-conditions"},
+          {"label": "Privacy Policy", "path": "/privacy-policy"}
+        ]
+      },
+      {
+        "heading": "Get in Touch",
+        "items": [
+          {"icon": "location pin", "text": "Chandhat, Palwal Kailash Nagar HSIIDC Dudhola Industrial Area Haryana"},
+          {"icon": "envelope", "text": "info@topwebexpert.com", "href": "mailto:info@topwebexpert.com"},
+          {"icon": "phone", "text": "+91 9050126213", "href": "tel:9050126213", "target": "_blank"}
+        ]
+      },
+      {
+        "heading": "Follow Us",
+        "socialLinks": [
+          {"platform": "Facebook", "url": "https://www.facebook.com/profile.php?id=100087658086893"},
+          {"platform": "Instagram", "url": "https://www.instagram.com/topwebexpert_/"},
+          {"platform": "LinkedIn", "url": "https://www.linkedin.com/company/topwebexpert/"}
+        ]
+      }
+    ],
+    "copyright": "©2024-25 copyright by Topwebexpert . all right reserved.",
+    "copyrightNotes": "Teal text, capitalize class",
+    "notes": "4-column grid (1 col mobile, 2 sm, 4 lg); white text with teal hover"
+  },
+  "floatingWhatsAppButton": {
+    "url": "https://api.whatsapp.com/send/?phone=9050126213&text=Hi, Topwebexpert Team&type=phone_number&app_absent=0",
+    "notes": "Fixed bottom-left green circular button with WhatsApp icon (size 40), rendered with the footer on every page"
+  },
+  "sharedSections": {
+    "testimonialsSlider": {
+      "component": "B7 (bundle-pretty.js line 50592)",
+      "heading": "What Our Clients Say",
+      "subheading": null,
+      "api": "GET http://localhost:8080/api/testimonials_slider.php  →  { testimonials: [{ id, message, name, designation }] }",
+      "renderedOn": ["/ (home)"],
+      "notes": "Horizontal scroll slider with left/right arrow buttons; each card: gray user-circle icon, testimonial message, name in teal bold, designation in small gray text"
+    },
+    "portfolioLogoCarousel": {
+      "component": "cz (bundle-pretty.js line 48864)",
+      "heading": "COMPANIES WE HAVE CREATED RESULTS FOR",
+      "subheading": null,
+      "api": "GET http://localhost:8080/api/fetch_carousel_images.php  →  { images: [filename, ...] }; images served from http://localhost:8080/api/portfolio_images/{filename}",
+      "renderedOn": ["/ (home)"],
+      "notes": "Horizontal scroll strip of client logo images (max-h-20, object-contain) with left/right arrow buttons; alt text 'Portfolio Item N'"
+    },
+    "whyPeopleLoveUs": {
+      "component": "uz (bundle-pretty.js line 48827)",
+      "heading": "Why People Love Us",
+      "renderedOn": ["/ (home)"],
+      "notes": "Static 3-card grid; full card content captured in home.json"
+    },
+    "faqAccordion": {
+      "component": "sz (bundle-pretty.js line 48778)",
+      "heading": "Frequently Asked Questions (heading rendered by home page, above the component)",
+      "renderedOn": ["/ (home)"],
+      "notes": "8 static Q&A items; full content captured in home.json"
+    }
+  },
+  "brandColors": {
+    "primary": "#00c1ae",
+    "primaryHover": "#00a190 / #00a394",
+    "lightTeal": "#e8f6f6"
+  }
+}

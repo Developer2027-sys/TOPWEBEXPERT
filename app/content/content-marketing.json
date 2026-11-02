@@ -1,0 +1,71 @@
+{
+  "route": "/content-marketing",
+  "pageTitle": "Content Marketing Services | TopWebExpert",
+  "metaDescription": "Boost your business visibility with high-quality, SEO-friendly, and plagiarism-free content marketing services.",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Content Marketing Services",
+      "subheading": null,
+      "paragraphs": [],
+      "image": null,
+      "items": [],
+      "notes": "Centered h1, brand color #00c1ae, on gray-100 page background"
+    },
+    {
+      "type": "content",
+      "heading": "SEO-Friendly Content that Ranks",
+      "subheading": null,
+      "paragraphs": [
+        "Our content marketing services prioritize SEO, ensuring your website and blog posts are optimized for search engines. We conduct thorough keyword research to identify relevant terms and phrases that your target audience is searching for. By strategically incorporating these keywords into your content, we enhance your website's visibility and organic ranking, ultimately driving more qualified traffic to your business."
+      ],
+      "image": "seo-friendly-content.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Plagiarism-Free Content for Trust and Authority",
+      "subheading": null,
+      "paragraphs": [
+        "At topwebexpert, we firmly believe in the ethical practice of creating original content. Plagiarism not only damages your reputation but can also have severe legal consequences. Our team of skilled writers and editors ensures that every piece of content we produce is 100% plagiarism-free. We use advanced plagiarism detection tools to ensure the uniqueness of each article, blog post, or website copy we deliver, building trust and establishing your brand as an industry authority."
+      ],
+      "image": "plagrism-free-content-marketing.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Engaging and Impactful Content",
+      "subheading": null,
+      "paragraphs": [
+        "Creating SEO-friendly and plagiarism-free content is only half the battle. To truly engage your audience, your content needs to be compelling, informative, and shareable. Our team of experienced content writers understands the art of storytelling and uses their expertise to craft content that resonates with your target audience. By incorporating engaging headlines, captivating introductions, and well-structured, informative body paragraphs, we ensure your content captures attention, encourages readership, and drives action."
+      ],
+      "image": "seo-impact-content.png",
+      "items": [],
+      "notes": "Image left / text right (reversed row), teal tint background bg-[#00c1ae]/10, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "content",
+      "heading": "Customized Content Marketing Strategies",
+      "subheading": null,
+      "paragraphs": [
+        "At topwebexpert, we understand that every business is unique. That's why we tailor our content marketing strategies to meet your specific needs and goals. Whether you require regular blog posts, social media content, email newsletters, or website copy, our team collaborates closely with you to create a customized content marketing plan. We align our efforts with your brand voice, target audience, and business objectives to deliver content that not only satisfies search engines but also resonates with your customers."
+      ],
+      "image": "customize-content-marketing.png",
+      "items": [],
+      "notes": "Text left / image right, white background, button 'Contact Us' -> /contact-us"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Get Your Content Marketing Game on?",
+      "subheading": null,
+      "paragraphs": [
+        "Let's Talk About Your Goals"
+      ],
+      "image": null,
+      "items": [],
+      "notes": "Teal #00c1ae banner, centered, white 'Contact Us' button -> /contact-us"
+    }
+  ]
+}
